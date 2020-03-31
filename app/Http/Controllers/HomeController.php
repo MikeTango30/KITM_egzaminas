@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Account;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 
 class HomeController extends Controller
@@ -22,19 +23,23 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @param Account $account
      * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
     {
-        $accounts = Account::select('*')
-            ->where('user_id','=', Auth::id());
-        dd($accounts);
-        if (Gate::allows('show', $account)) {
+        return view('home');
+    }
 
-            return view('/home',compact($account));
+    public function showAccount()
+    {
+        $accounts = DB::table('accounts')
+            ->where('user_id','=', Auth::id())->get();
+
+        if (Gate::allows('allow', $accounts[0])) {
+
+            return view('/show_account', compact('accounts'));
         }
 
-        return view('pages.authorization_error');
+        return view('authorization_error');
     }
 }

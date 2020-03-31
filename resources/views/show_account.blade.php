@@ -37,7 +37,7 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="{{ url('/send-self') }}" class="btn btn-success">
+                                        <a href="{{ url('/send-self/form') }}" class="btn btn-success">
                                             Send money between my accounts
                                         </a>
                                     </div>

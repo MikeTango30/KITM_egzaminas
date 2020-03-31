@@ -52,14 +52,14 @@ class User extends Authenticatable
 
             $accountMain = Account::create([
                 'user_id' => $user->id,
-                'number' => 'LT' . $faker->iban('LT'),
+                'number' => $faker->iban('LT'),
                 'amount' => 500,
                 'is_main' => true
             ]);
 
             $account = Account::create([
                 'user_id' => $user->id,
-                'number' => 'LT' . $faker->iban('LT'),
+                'number' => $faker->iban('LT'),
                 'amount' => 0,
                 'is_main' => false
             ]);

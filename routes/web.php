@@ -13,9 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@showAccount');
+Route::get('/send-payment/form', 'AccountController@showPaymentForm');
+Route::post('/send-payment/send', 'AccountController@sendPayment');
+Route::get('/send-self/form', 'AccountController@showSelfPaymentForm');
+Route::post('/send-self/send', 'AccountController@sendSelfPayment');
+Route::get('/generate-report', 'OperationController@generateReport');
 
 Auth::routes();
 

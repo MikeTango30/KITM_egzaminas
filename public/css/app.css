@@ -10882,3 +10882,42 @@ a.text-dark:focus {
   }
 }
 
+.page-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  padding-bottom: 25px;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  border-top: 1px solid #555;
+}
+
+.badge-low {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.badge-normal {
+  color: #212529;
+  background-color: #ffc107;
+}
+
+.badge-high {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.promo-text h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
