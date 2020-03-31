@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46041f9-8b39-47aa-95fd-2ce7714a7b2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/todo.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OperationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OperationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_31_080131_create_operations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_31_080131_create_operations_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show_operations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show_operations.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585550849979</updated>
       <workItem from="1585550851371" duration="421000" />
-      <workItem from="1585551287019" duration="36254000" />
+      <workItem from="1585551287019" duration="37529000" />
     </task>
     <task id="LOCAL-00001" summary="send self">
       <created>1585660822237</created>
@@ -206,16 +204,40 @@
       <option name="project" value="LOCAL" />
       <updated>1585663258902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bare bones">
+      <created>1585664785827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585664785827</updated>
+    </task>
+    <task id="LOCAL-00004" summary="bare bones">
+      <created>1585664870859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585664870859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bare bones">
+      <created>1585664906558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585664906558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="send self" />
     <MESSAGE value="operations by account" />
-    <option name="LAST_COMMIT_MESSAGE" value="operations by account" />
+    <MESSAGE value="bare bones" />
+    <option name="LAST_COMMIT_MESSAGE" value="bare bones" />
   </component>
   <component name="WindowStateProjectService">
     <state x="265" y="52" width="824" height="685" key="#CLI_Interpreters" timestamp="1585570271789">
@@ -234,10 +256,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="153" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1585660921263" />
-    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2" timestamp="1585664870788">
+    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2" timestamp="1585664906488">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585664870788" />
+    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585664906488" />
     <state x="466" y="153" width="424" height="485" key="FileChooserDialogImpl" timestamp="1585551306917">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -258,10 +280,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="179" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1585570276778" />
-    <state x="278" y="129" width="800" height="533" key="Vcs.Push.Dialog.v2" timestamp="1585664884513">
+    <state x="278" y="129" width="800" height="533" key="Vcs.Push.Dialog.v2" timestamp="1585664910943">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="129" width="800" height="533" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1585664884513" />
+    <state x="278" y="129" width="800" height="533" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1585664910943" />
     <state x="531" y="154" width="294" height="479" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1585559981575">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

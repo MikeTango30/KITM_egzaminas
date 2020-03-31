@@ -25,6 +25,16 @@ class OperationController extends Controller
 
     public function cancel($operationId)
     {
+        $operation = DB::table('operations')->find($operationId);
+        if($operation->is_pending) {
+            DB::table('operations')
+                ->where('id', '=', $operationId)
+                ->update([
+                    'is_canceled' => true,
+                    'is_pending'  => false
+                    ]);
+        }
 
+        return view('todo');
     }
 }
