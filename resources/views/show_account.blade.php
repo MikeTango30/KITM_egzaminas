@@ -42,7 +42,7 @@
                                     </div>
                                     <div class="col">
                                         <a href="{{ url('/send-self/form') }}" class="btn btn-success">
-                                            Send money between my accounts
+                                            Payments to self
                                         </a>
                                     </div>
                                     <div class="col">

@@ -20,5 +20,6 @@ Route::get('/send-self/form', 'AccountController@showSelfPaymentForm');
 Route::post('/send-self/send', 'AccountController@sendSelfPayment');
 Route::get('/generate-report/{accountId}', 'OperationController@generateReport');
 Route::get('/logout', 'HomeController@logout');
+Route::get('/payment/cancel/{operationId}', 'OperationController@cancel');
 
 Auth::routes();

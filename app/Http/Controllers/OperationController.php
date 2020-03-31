@@ -22,4 +22,9 @@ class OperationController extends Controller
 
         return view('authorization_error');
     }
+
+    public function cancel($operationId)
+    {
+
+    }
 }

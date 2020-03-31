@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46041f9-8b39-47aa-95fd-2ce7714a7b2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/_partials/promo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/authorization_error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/show_operations.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OperationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OperationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/send_self.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/send_self.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show_account.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show_account.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_31_080131_create_operations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_31_080131_create_operations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/show_operations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show_operations.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585550849979</updated>
       <workItem from="1585550851371" duration="421000" />
-      <workItem from="1585551287019" duration="34681000" />
+      <workItem from="1585551287019" duration="36254000" />
     </task>
     <task id="LOCAL-00001" summary="send self">
       <created>1585660822237</created>
@@ -210,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585660822237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="operations by account">
+      <created>1585663258902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585663258902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="send self" />
-    <option name="LAST_COMMIT_MESSAGE" value="send self" />
+    <MESSAGE value="operations by account" />
+    <option name="LAST_COMMIT_MESSAGE" value="operations by account" />
   </component>
   <component name="WindowStateProjectService">
     <state x="265" y="52" width="824" height="685" key="#CLI_Interpreters" timestamp="1585570271789">
@@ -237,10 +234,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="153" width="524" height="485" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1585660921263" />
-    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2" timestamp="1585660822070">
+    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2" timestamp="1585663258670">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585660822070" />
+    <state x="210" y="27" width="936" height="737" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1585663258670" />
     <state x="466" y="153" width="424" height="485" key="FileChooserDialogImpl" timestamp="1585551306917">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

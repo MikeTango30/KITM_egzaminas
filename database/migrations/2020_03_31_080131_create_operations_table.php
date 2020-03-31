@@ -20,6 +20,8 @@ class CreateOperationsTable extends Migration
             $table->boolean('out');
             $table->decimal('amount', 10, 2);
             $table->string('message');
+            $table->boolean('is_pending')->default(true);
+            $table->boolean('is_canceled')->default(false);
             $table->timestamps();
         });
     }
