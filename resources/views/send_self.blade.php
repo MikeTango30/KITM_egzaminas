@@ -2,7 +2,7 @@
 @section('promo')
     @component('_partials.promo')
         @slot('title')
-            <h1 class="my-auto w-100">Send Payment</h1>
+            <h1 class="my-auto w-100">Payments between my accounts</h1>
         @endslot
     @endcomponent
 @stop

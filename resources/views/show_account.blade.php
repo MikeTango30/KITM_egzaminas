@@ -15,7 +15,7 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Account Number</th>
-                        <th scope="col">Main Account</th>
+                        <th scope="col">Account type</th>
                         <th scope="col">Balance, EUR</th>
                         <th scope="col" class="text-center">Actions</th>
                     </tr>
@@ -26,7 +26,11 @@
                             <td class="account account--id">{{ $loop->index + 1 }}</td>
                             <td class="account account--number">{{ $account->number }}</td>
                             <td class="account account--main">
-                                <span class="badge badge-pill badge-{{ $account->is_main }}">{{ $account->is_main }}</span>
+                                <span class="badge badge-pill badge-{{ $account->is_main }}">
+                                    @if($account->is_main)
+                                        Main account
+                                    @endif
+                                </span>
                             </td>
                             <td class="account account--balance">{{ $account->amount }}</td>
                             <td>
@@ -42,7 +46,7 @@
                                         </a>
                                     </div>
                                     <div class="col">
-                                        <a href="{{ url('/generate-report') }}" class="btn btn-info">
+                                        <a href="{{ url('/generate-report/' . $account->id) }}" class="btn btn-info">
                                             Generate Report
                                         </a>
                                     </div>

@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Account;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
@@ -41,5 +39,12 @@ class HomeController extends Controller
         }
 
         return view('authorization_error');
+    }
+
+    public function logout() {
+
+        Auth::logout();
+
+        return redirect('/login');
     }
 }

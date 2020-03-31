@@ -31,11 +31,28 @@
     background-color: #dc3545;
 }
 
+.promo {
+    height: 250px;
+}
+
 .promo-text {
+    background-color: rgb(0, 0, 0, .3);
     h1 {
         color: #fff;
         font-size: 4rem;
         font-weight: 700;
-        background-color: rgb(0, 0, 0, .3);
+
+    }
+    h5 {
+        color: #fff;
     }
 }
+
+.nav-item {
+    border-right: 1px solid #ccc;
+}
+
+.nav-item:last-child {
+    border-right:none;
+}
+

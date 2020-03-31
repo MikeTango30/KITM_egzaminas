@@ -18,8 +18,7 @@ Route::get('/send-payment/form', 'AccountController@showPaymentForm');
 Route::post('/send-payment/send', 'AccountController@sendPayment');
 Route::get('/send-self/form', 'AccountController@showSelfPaymentForm');
 Route::post('/send-self/send', 'AccountController@sendSelfPayment');
-Route::get('/generate-report', 'OperationController@generateReport');
+Route::get('/generate-report/{accountId}', 'OperationController@generateReport');
+Route::get('/logout', 'HomeController@logout');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

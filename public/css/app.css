@@ -10914,10 +10914,29 @@ a.text-dark:focus {
   background-color: #dc3545;
 }
 
+.promo {
+  height: 250px;
+}
+
+.promo-text {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .promo-text h1 {
   color: #fff;
   font-size: 4rem;
   font-weight: 700;
-  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.promo-text h5 {
+  color: #fff;
+}
+
+.nav-item {
+  border-right: 1px solid #ccc;
+}
+
+.nav-item:last-child {
+  border-right: none;
 }
 

@@ -6,7 +6,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="{{ url('/') }}">My Accounts</a>
-            <a class="nav-item nav-link" href="{{ url('/send-payment') }}">Send Payment</a>
+            <a class="nav-item nav-link" href="{{ url('/send-payment/form') }}">Send Payment</a>
+            <a class="nav-item nav-link" href="{{ url('/send-self/form') }}">Payments between my account</a>
             <a class="nav-item nav-link" href="{{ url('/logout') }}">Logout</a>
         </div>
     </div>
